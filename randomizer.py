@@ -1,0 +1,3 @@
+races = ["dwarf", "elf", "halfling", "human", "dragonborn", "gnome", "half-elf", "half-orc", "tiefling"]
+
+classes = {"barbarian": ["Path of the Berserker", "Path of the Totem Warrior"], "bard": ["College of Lore", "College of Valor"], "cleric": ["Knowledge Domain", "Life Domain", "Light Domain", "Nature Domain", "Tempest Domain", "Trickery Domain", "War Domain"], "druid": ["Circle of the Land", "Circle of the Moon"], "fighter": ["Champion", "Battle Master", "Eldritch Knight"], "monk": }
