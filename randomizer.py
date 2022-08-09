@@ -16,14 +16,15 @@ dndsubclasscount = {key: len(value) for key, value in dndsubclasses.items()}
 #3 fighters, monks, paladins, rogues, warlocks
 #7 clerics and 8 wizards
 
+print("Hello! Welcome to the D&D random character generator.\nTo create your character, roll the specified dice and enter the result. \nAt any point, if you would rather we roll for you, simply type '0' instead! \n")
+
+
 def character_builder():
     my_race = ""
     my_subrace = ""
     my_class = ""
     my_subclass = ""
     
-    print("Hello! Welcome to the D&D random character generator. To create your character, we will be asking you to roll various dice and enter the results. \nAt any point, if you would rather we roll for you, simply type '0' instead! ")
-
 # dndsubraces[my_race] will give list of subraces for given race
 # dndsubracecount[my_race] will give integer of how many subraces a race has
     
